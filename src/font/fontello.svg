@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2017 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="phone" unicode="&#xe800;" d="M461 290q162 162 118 206l-8 8q-30 30-41 48t-4 54 49 88q20 24 37 39t35 16 30 1 29-13 24-18 26-25 21-22q48-48-6-194t-204-294q-150-150-295-205t-193-7q-2 2-23 22t-25 25-18 24-13 31 2 30 15 35 38 37q42 34 70 47t54 2 35-18 39-37q44-44 208 120z" horiz-adv-x="800" />
+
+<glyph glyph-name="home" unicode="&#xe801;" d="M521 819q322-279 500-429 20-16 20-40 0-21-15-37t-36-15l-105 0 0-364q0-21-15-37t-36-16l-156 0q-22 0-37 16t-16 37l0 208-209 0 0-208q0-21-15-37t-36-16l-156 0q-21 0-37 16t-16 37l0 364-103 0q-22 0-37 15t-16 37 19 40z" horiz-adv-x="1041" />
+
+<glyph glyph-name="newspaper" unicode="&#xf1ea;" d="M571 564h-214v-214h214v214z m72-357v-71h-357v71h357z m0 429v-357h-357v357h357z m357-429v-71h-286v71h286z m0 143v-71h-286v71h286z m0 143v-72h-286v72h286z m0 143v-72h-286v72h286z m-857-536v536h-72v-536q0-14 11-25t25-11 25 11 11 25z m928 0v607h-857v-607q0-18-6-36h828q14 0 25 11t10 25z m72 679v-679q0-45-31-76t-76-31h-929q-44 0-76 31t-31 76v607h143v72h1000z" horiz-adv-x="1142.9" />
+</font>
+</defs>
+</svg>
