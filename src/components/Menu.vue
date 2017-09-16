@@ -3,7 +3,7 @@
     <h1 class="logo"><router-link to="/home" class="logo__link">{{ logo }}</router-link></h1>
     <nav class="nav">
       <ul class="nav__links">
-        <router-link :class="{'active': page.isActive}  " :to="page.name" class="nav__link" v-for="page in pages" :key="page.id">
+        <router-link :class="{'active': page.isActive}" :to="`/${page.name}`" class="nav__link" v-for="page in pages" :key="page.id">
           <span :class="[page.icon, linkClass]"></span>
         </router-link>
       </ul>
@@ -50,6 +50,7 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
+.menu{z-index: 5000;}
 @media only screen and (min-width: 1367px){
 :root{
   --h: 5vh;
@@ -87,6 +88,9 @@ export default {
       text-shadow: 2px 2px 4px #2c2c2c;
       font-size: var(--LogofontSize);
       font-family: var(--mainFont);
+      will-change: 
+        text-shadow
+      ;
       transition:
         text-shadow .5s 0s
       ;
@@ -118,6 +122,9 @@ export default {
       border-radius: 50%;
       margin: calc((var(--h) - var(--navItemSize)) / 2) 2%;
       box-shadow: 0px 0px 1px 2px #1b1b1b;
+      will-change: 
+        border-radius
+      ;
       transition: 
         transform .5s 0s,
         border-radius .5s 0s
@@ -148,6 +155,7 @@ export default {
       outline: none;
       transform: translateY(10%) scale(1.2);
       border-radius: 0;
+      will-change: border-radius;
       transition: 
         transform .5s 0s,
         border-radius .5s 0s

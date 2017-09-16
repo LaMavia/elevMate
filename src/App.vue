@@ -23,7 +23,8 @@ export default {
 }
 body{
   width: 100vw;
-  height: 200vh;
+  min-height: 100vh;
+  height: auto;
   background-image: linear-gradient(#eee, #ddd);
   overflow-x: hidden;
   &::-webkit-scrollbar{
@@ -41,5 +42,15 @@ body{
   width: 100%;
   height: 100%;
   color: #1b1b1b;
+}
+.fotter{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 2vh;
+  text-align: center;
+  background-color: #262626;
+  color: #fff;
 }
 </style>
